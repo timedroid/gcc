@@ -1182,6 +1182,10 @@ see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
 #define DEFAULT_PCC_STRUCT_RETURN 1
 #endif
 
+#ifndef DEFAULT_PIE
+# define DEFAULT_PIE 2
+#endif
+
 #ifdef GCC_INSN_FLAGS_H
 /* Dependent default target macro definitions
 

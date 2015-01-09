@@ -1755,7 +1755,7 @@ Common Report Var(flag_pic,2) Negative(fPIE)
 Generate position-independent code if possible (large mode)
 
 fPIE
-Common Report Var(flag_pie,2) Negative(fpic)
+Common Report Var(flag_pie,2) Negative(fpic) Init(-1)
 Generate position-independent code for executables if possible (large mode)
 
 fpic
@@ -1763,7 +1763,7 @@ Common Report Var(flag_pic,1) Negative(fpie)
 Generate position-independent code if possible (small mode)
 
 fpie
-Common Report Var(flag_pie,1) Negative(fPIC)
+Common Report Var(flag_pie,1) Negative(fPIC) Init(-1)
 Generate position-independent code for executables if possible (small mode)
 
 fplugin=
