@@ -2792,7 +2792,7 @@ specs=
 Driver Joined
 
 static
-Driver
+Driver RejectNegative Negative(shared)
 
 static-libgcc
 Driver
@@ -2824,7 +2824,7 @@ symbolic
 Driver
 
 pie
-Driver RejectNegative Negative(shared)
+Driver RejectNegative Negative(static)
 Create a position independent executable
 
 z
