@@ -2823,8 +2823,11 @@ Driver
 symbolic
 Driver
 
-pie
+no-pie
 Driver RejectNegative Negative(static)
+
+pie
+Driver RejectNegative Negative(no-pie)
 Create a position independent executable
 
 z
